@@ -20,3 +20,16 @@ function show(id) {
     hideAll();
     show(id);
  }
+
+//  function listenMenuClicks(){
+//      document.addEventListener("click", function(e){
+//          var link = e.target;
+//          if(link.matches("#menu a")) {
+//             console.log("click", link.innerHTML.toLowerCase());
+//             var id = link.innerHTML.toLowerCase();
+//             console.log("id" , id)
+//             showPage(id)
+//          }
+//      });
+//  }
+//  listenMenuClicks()
