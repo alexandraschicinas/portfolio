@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/homepage.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/media-queries.css">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="shortcut icon" href="images/Simple Brand Initials Logo Mark  (7).png" type="image/png">
 
     </head>
     <body>
@@ -51,13 +53,14 @@
                     <div class="image-wrapper">
                         <img src="images/aboutme1.jpeg" 
                             alt="representingme"
-                            srcset="images/knowme.jpeg 2x,
-                                    images/knowme.jpeg 3x,
-                                    images/knowme.jpeg 4x" >
+                            srcset="images/knowme.jpeg 480w,
+                                    images/knowme.jpeg 800w"
+                            sizes= "(max-width:600px) 480px, 800px" >
                     </div>
                     <div id="description">
-                     <p>I’m an enthusiastic beginner in web development field.</p>
-                     <p> Recently I materialized my curiosity and started studying web development within an accredited course at FastTrackIT. I'm an ambitious, self-motivated and good learner, and I work everyday to improve my web developer skills. I discovered that the more I learn, the more enthusiastic I become about programming, therefore I am eager to apply the knowledge acquired so far and willing to learn more. I am currently looking for a position that would allow me to grow my real-world experience in the technology industry and help me further to develop and refine my web development skills.</p>
+                     <p>I am a Front-End Developer, certified through an accredited course at FastTrackIt.</p>
+                     <p>Ambitious, self-motivated and a good learner, I work every day to improve my web developer skills. The more I learn, the more excited I become about programming. Therefore, I look forward to joining a project in which I can contribute through my new skills: HTML, CSS, JS.</p>
+                     <p> I am currently looking for a position that would allow me to grow my real-world experience in the technology industry and help me further to develop and refine my web development skills.</p>
                      
                  </div>
                  </div>
@@ -97,7 +100,11 @@
                 <h2>Services</h2>
                 <div class="wrapper">
                     <div class="image-wrapper">
-                        <img src="images/learn.jpeg" alt="learn">
+                        <img 
+                        srcset="images/knowme.jpeg 480w,
+                                    images/knowme.jpeg 800w"
+                        sizes= "(max-width:600px) 480px, 800px"
+                        src="images/learn.jpeg" alt="learn">
                     </div>
                     <div id="services-wrapper">
                         <div class="websites">
@@ -114,7 +121,7 @@
                          </div>
                          <div class="websites">
                                 <div class="logo">
-                                 <i class="fas fa-mobile-alt fa-3x"></i> 
+                                 <i class="fas fa-mobile-alt fa-3x" ></i> 
                                 </div>
                                 <div>
                                     <h3> Developing responsive websites</h3>
